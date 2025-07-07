@@ -135,14 +135,14 @@ npm start
 
 ### 2. Test API Endpoints
 - API base URL: http://localhost:3000/api
-- Test registration: POST http://localhost:3000/api/auth/register
+- Test login: POST http://localhost:3000/api/auth/login
 
 ### 3. Check Database Connection
 - Look for "Connected to MongoDB" in console logs
-- If using seeded data, you can login with:
+- If using seeded data, you can login with accounts listed in LOGIN_GUIDE.md:
   - Admin: `admin` / `admin123`
-  - Manager: `manager1` / `manager123`
-  - User: `user1` / `user123`
+  - Manager: `mlotfian` / `password123` or `manager1` / `manager123`
+  - User: `mehdi_lotfian` / `password123` or `user1` / `user123`
 
 ## 🔧 Troubleshooting
 
@@ -228,7 +228,7 @@ System Analysis Project/
 - ✅ MongoDB connection established
 - ✅ Frontend loads at http://localhost:3000
 - ✅ API endpoints respond correctly
-- ✅ User registration/login works
+- ✅ User login works
 - ✅ Quiz functionality works
 - ✅ Leaderboard displays correctly
 

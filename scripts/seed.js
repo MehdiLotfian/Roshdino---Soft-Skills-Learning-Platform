@@ -202,6 +202,174 @@ const sampleUsers = [
         role: "user",
         points: 2234,
         trainingProgress: 65
+    },
+    {
+        username: "mehdi_lotfian",
+        email: "mehdi_lotfian@example.com",
+        password: "password123",
+        firstName: "mehdi_lotfian",
+        lastName: "User",
+        role: "user",
+        points: 5330,
+        trainingProgress: 100,
+        trainingComplete: true,
+        isActive: true,
+        preferences: {
+            notifications: true,
+            emailUpdates: true,
+            theme: "light"
+        },
+        badges: [
+            {
+                name: "Quiz Master",
+                description: "Achieved 90% or higher in a contest quiz",
+                earnedAt: new Date("2025-07-06T01:48:05.206Z")
+            },
+            {
+                name: "Quiz Master",
+                description: "Achieved 90% or higher in a contest quiz",
+                earnedAt: new Date("2025-07-06T01:53:27.284Z")
+            },
+            {
+                name: "Quiz Master",
+                description: "Achieved 90% or higher in a contest quiz",
+                earnedAt: new Date("2025-07-06T02:13:01.630Z")
+            },
+            {
+                name: "Quiz Master",
+                description: "Achieved 90% or higher in a contest quiz",
+                earnedAt: new Date("2025-07-06T02:37:47.495Z")
+            },
+            {
+                name: "Quiz Master",
+                description: "Achieved 90% or higher in a contest quiz",
+                earnedAt: new Date("2025-07-07T15:08:29.452Z")
+            }
+        ],
+        certificates: [
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:38:03.046Z"),
+                certificateUrl: "/certificates/6869d37b5979a0229aee97c5"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:40:47.927Z"),
+                certificateUrl: "/certificates/6869d41f5979a0229aee97e2"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:44:10.096Z"),
+                certificateUrl: "/certificates/6869d4ea5979a0229aee9805"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:48:05.209Z"),
+                certificateUrl: "/certificates/6869d5d55979a0229aee982e"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:48:43.099Z"),
+                certificateUrl: "/certificates/6869d5fb5979a0229aee985a"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:52:29.119Z"),
+                certificateUrl: "/certificates/6869d6dd5979a0229aee9895"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:53:00.376Z"),
+                certificateUrl: "/certificates/6869d6fc5979a0229aee98c4"
+            },
+            {
+                name: "Test Quiz - Student",
+                score: 100,
+                issuedAt: new Date("2025-07-06T01:53:27.288Z"),
+                certificateUrl: "/certificates/6869d7175979a0229aee98f3"
+            },
+            {
+                name: "Test Quiz - Student",
+                score: 100,
+                issuedAt: new Date("2025-07-06T02:08:17.126Z"),
+                certificateUrl: "/certificates/6869da915979a0229aee99b4"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T02:08:37.742Z"),
+                certificateUrl: "/certificates/6869daa55979a0229aee9a09"
+            },
+            {
+                name: "Test Quiz - Student",
+                score: 100,
+                issuedAt: new Date("2025-07-06T02:11:50.843Z"),
+                certificateUrl: "/certificates/6869db6618f1b0444b499a4e"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T02:12:14.206Z"),
+                certificateUrl: "/certificates/6869db7e18f1b0444b499ab0"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-06T02:13:01.637Z"),
+                certificateUrl: "/certificates/6869dbad18f1b0444b499b1a"
+            },
+            {
+                name: "Client Relationship Management - Client",
+                score: 100,
+                issuedAt: new Date("2025-07-06T02:37:47.499Z"),
+                certificateUrl: "/certificates/6869e17b18f1b0444b499dc5"
+            },
+            {
+                name: "Manager Leadership Skills - Manager",
+                score: 100,
+                issuedAt: new Date("2025-07-07T15:08:29.459Z"),
+                certificateUrl: "/certificates/686be2ed102efabd12e04ac1"
+            }
+        ]
+    },
+    {
+        username: "mlotfian",
+        email: "mlotfian@example.com",
+        password: "password123",
+        firstName: "mlotfian",
+        lastName: "User",
+        role: "manager",
+        points: 0,
+        trainingProgress: 100,
+        trainingComplete: true,
+        isActive: true,
+        preferences: {
+            notifications: true,
+            emailUpdates: true,
+            theme: "light"
+        },
+        badges: [],
+        certificates: [
+            {
+                name: "Test Quiz - Student",
+                score: 100,
+                issuedAt: new Date("2025-07-07T15:17:25.208Z"),
+                certificateUrl: "/certificates/686be505102efabd12e04c93"
+            },
+            {
+                name: "Test Quiz - Student",
+                score: 100,
+                issuedAt: new Date("2025-07-07T15:17:40.033Z"),
+                certificateUrl: "/certificates/686be514102efabd12e04ca9"
+            }
+        ]
     }
 ];
 
@@ -252,7 +420,9 @@ async function seedDatabase() {
         console.log('\n🔑 Default Login Credentials:');
         console.log('Admin: admin / admin123');
         console.log('Manager: manager1 / manager123');
+        console.log('Manager: mlotfian / password123');
         console.log('User: user1 / user123');
+        console.log('User: mehdi_lotfian / password123');
 
         process.exit(0);
     } catch (error) {

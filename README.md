@@ -94,9 +94,12 @@ A comprehensive web-based platform for learning and practicing soft skills throu
 
 6. **Access the application**
    - Open your browser and navigate to `http://localhost:3000`
-   - Use the provided test accounts or create new ones
+   - Use the provided test accounts (see LOGIN_GUIDE.md for details)
 
 ## 📖 Usage
+
+### Quick Start
+- See `LOGIN_GUIDE.md` for available login accounts and detailed usage instructions
 
 ### For Users
 1. **Login** with your credentials
@@ -158,7 +161,10 @@ roshdino/
 │   └── certificates/
 ├── server.js          # Main server file
 ├── package.json       # Dependencies and scripts
-└── README.md         # This file
+├── README.md         # This file
+├── LOGIN_GUIDE.md    # User login information
+├── INSTALLATION.md   # Installation guide
+└── BACKEND_REPORT.md # Backend implementation report
 ```
 
 ## 🔧 Configuration
@@ -192,6 +198,20 @@ npm start
 docker build -t roshdino .
 docker run -p 3000:3000 roshdino
 ```
+
+## 🔄 Recent Updates
+
+### Latest Changes
+- **Removed Registration**: User registration has been disabled - only login is available
+- **Enhanced Seed Data**: Added comprehensive user accounts with full progress data
+- **Updated Documentation**: All markdown files updated to reflect current functionality
+- **Login Guide**: Created detailed `LOGIN_GUIDE.md` with all available accounts
+
+### Available Accounts
+- **mehdi_lotfian** / password123 (User with 5,330 points)
+- **mlotfian** / password123 (Manager)
+- **admin** / admin123 (Admin)
+- Plus additional test accounts (see LOGIN_GUIDE.md)
 
 ## 🤝 Contributing
 

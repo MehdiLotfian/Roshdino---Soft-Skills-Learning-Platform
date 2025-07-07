@@ -24,6 +24,7 @@ System Analysis Project/
 ├── package.json             # Dependencies and scripts
 ├── .env                     # Environment configuration
 ├── README.md               # Comprehensive documentation
+├── LOGIN_GUIDE.md          # User login information
 ├── INSTALLATION.md         # Step-by-step installation guide
 ├── BACKEND_REPORT.md       # This report
 ├── models/                 # Database models
@@ -57,7 +58,7 @@ System Analysis Project/
 - **Profile Management**: First name, last name, email, role
 - **Gamification**: Points system, badges, training progress
 - **Role-based Access**: User, Manager, Admin roles
-- **Activity Tracking**: Last login, registration date, account status
+- **Activity Tracking**: Last login, account creation date, account status
 
 #### Quiz Model (`models/Quiz.js`)
 - **Dynamic Questions**: Multiple choice with explanations
@@ -75,7 +76,6 @@ System Analysis Project/
 ### 2. API Endpoints
 
 #### Authentication (`/api/auth`)
-- `POST /register` - User registration with validation
 - `POST /login` - Secure login with JWT
 - `GET /profile` - Get user profile
 - `PUT /profile` - Update profile
@@ -153,7 +153,7 @@ System Analysis Project/
 ## 📊 Features Implemented
 
 ### Core Features ✅
-- [x] User authentication and registration
+- [x] User authentication (login only)
 - [x] Role-based access control
 - [x] Quiz system with multiple roles
 - [x] Dynamic question management
